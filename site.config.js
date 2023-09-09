@@ -1,31 +1,36 @@
 const CONFIG = {
-  // profile setting (required)
+  // 블로그 셋팅 (필수)
+  blog: {
+    title: "HI Flutter",
+    description: "어서오세요!",
+  },
+
+  // 프로필 셋팅 (필수)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    name: "HI Flutter",
+    image: "/avatar.svg", // 이 사이트로 아바타 생성할 수 있음 => https://notion-avatar.vercel.app
+    role: "Flutter, Autocad Macro Developer",
+    bio: "어서오세요!",
+    email: "hiflutters@gmail.com",
+    linkedin: "",
+    github: "",
     instagram: "",
   },
+
+
+  // Service
   projects: [
     {
       name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      href: "https://github.com/g9191hc/morethan-log",
     },
   ],
-  // blog setting (required)
-  blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-  },
+
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
